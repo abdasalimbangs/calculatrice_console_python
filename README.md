@@ -42,3 +42,16 @@ Mémoire
 Sauvegarde
 Calcul scientifique
 Export
+
+# Architecture MVP
+
+├── calculator
+│   ├── app.py
+│   ├── history.py
+│   ├── menu.py
+│   ├── operation.py
+│   ├── test
+│   └── validator.py
+└── README.md
+
+3 directories, 6 files
