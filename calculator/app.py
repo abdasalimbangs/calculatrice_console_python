@@ -1,4 +1,10 @@
-# import de la fonction affichage
 import menu
+import validator
 
-menu.afficher_menu()
+
+choix = -1
+
+while choix != 0:
+    menu.afficher_menu()
+    choix = validator.lire_choix()
+    print(choix)
