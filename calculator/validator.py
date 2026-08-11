@@ -1,4 +1,4 @@
-
+# fonction pour lire le choix de l'utilisateur
 def lire_choix(choix_valides):
 
     choix = int(input("Votre choix : "))
