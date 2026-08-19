@@ -36,5 +36,6 @@ def effectuer_multiplication():
 # Fonction pour interaction avec l'utilisateur
 def effectuer_division():
     nombre1,nombre2 = inputs.lire_deux_nombres()
-    resultat = division(nombre1, nombre2)
-    return resultat
+    return division(nombre1, nombre2)
+
+
